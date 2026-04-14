@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        
+body{
+    background-image: url(semvaza.png);
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FODINHA GAMES</title>
+</head>
+<body>
+    <div class="center">
+    <audio autoplay>
+        <source src="explode.mp3" type="audio/mpeg">
+    </audio>
+    <video id="explode" autoplay muted>
+        <source src="explode.webm" type="video/mp4">
+    </video>
+
+
+    <div class="container">
+            <div class="image">  
+    <img id="ak" src="akali.gif">
+    </div>
+
+    <div class="fodinhagames">
+        <h1>VOCÊ É FODA!</h1>
+        <h3>Parabéns pelo teu dia tmj 😎</h3>
+    </div>
+    </div>
+    </div>
+
+    <p class="heart"><a href="thetruthnuke.html">❤</a></p>
+
+</body>
+
+<script>
+
+    const video=document.getElementById("explode");
+
+    video.addEventListener("ended", function(){
+        video.style.display = "none";
+    });
+
+
+
+</script>
+</html>
